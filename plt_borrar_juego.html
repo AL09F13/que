@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+
+<body bgcolor="#FF6600">
+<div align="center">
+<h1 style="color:#FFF"> Borrar Juego </h1>
+
+
+<form action="borrar.php" method="post">
+ <div style="width:65%; border:1px solid #00C; background-color:#FC0;">
+
+ <div style="text-align:center; color:#030">
+ <h2>Titulo: <input name="txtusuario" value="{titulo}" type="text" ></h2>
+ </div>
+ 
+ <div style="text-align:center; color:#030">
+ <h2>Fecha: <input  name="txtpassword" value="{fecha}" type="date" maxlength="8" {editable}></h2>
+ </div>
+ 
+ <div style="text-align:center; color:#030">
+ <h2>compañia: <input  name="txtpassword" value="{compania}" type="text" maxlength="8" {editable}></h2>
+ </div>
+ 
+  <div style="text-align:center; color:#030">
+ <h2>Plataformas: <input  name="txtpassword" value="{plataformas}" type="text" maxlength="8" {editable}></h2>
+ </div>
+ 
+  <div style="text-align:center; color:#030">
+ <h2>Genero: <input  name="txtpassword" value="{genero}" type="text" maxlength="8" {editable}></h2>
+ </div>
+ 
+  <div style="text-align:center; color:#030">
+ <h2>Clasificacion: <input  name="txtpassword" value="{clasificacion}" type="text" maxlength="8" {editable}></h2>
+ </div>
+   
+   <center>
+   
+   <input name="btnborar" type="submit" value="BORRAR" {ocultarB} style="color:#FFF;         background-color:#C00;" >  
+   
+   
+   <input name="btncancelar" type="button" value="CANCELAR" style="color:#FFF; background-color:#C00;">
+  
+ </center>
+ 
+</div>
+
+</form>
+
+
+
+</body>
+</html>

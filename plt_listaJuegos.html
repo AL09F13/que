@@ -1,0 +1,82 @@
+<!--{encabezado}-->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lista Juegos</title>
+</head>
+
+<body>
+
+ <div align="center">
+ 
+ <center>
+ 
+  <h1 style="color:#03F">Lista de Juegos</h1>
+  <table width="500" border="4" style="text-align:center; font-size:25px">
+  <tr>
+    <th scope="col"><p style="color:#09F"> Número </p></th>
+    <th scope="col"><p style="color:#09F"> Titulo </p></th>
+    <th scope="col"><p style="color:#09F"> Fecha de Lanzamiento </p></th>
+    <th scope="col"><p style="color:#09F"> Compañia </p></th>
+    <th scope="col"><p style="color:#09F"> Genero </p></th>
+    <th scope="col"><p style="color:#09F"> Plataforma </p></th>
+    <th scope="col"><p style="color:#09F"> Clasificación </p></th>
+    
+    <td width="89" style="color:#09f">Borrar</td>
+    <td width="77" style="color:#09f">Editar</td>
+    
+  </tr>
+  <tr>
+  <!--{/encabezado}-->
+  
+  <!--{fila}-->
+  
+    <td style="color:#0C9">{id_t}</td> 
+    <td>{titulo_t}</td>
+   
+    <td>{fecha_t}</td>
+    <td>{compania_t}</td>
+    <td>{genero_t}</td>
+    <td>{plataformas_t}</td>
+    <td>{clasificacion_t}</td>
+    
+    
+    <td><a href="borrar.php?id={id_t}"><img src="recursos/imagenes/opciones/borrar.png" width="24" height="24"></a></td>
+    
+     
+    <td><a href="editar.php?"><img src="recursos/imagenes/opciones/editar.png" width="24" height="24"></a></td>
+    
+    
+  </tr>
+
+  <!--{/fila}-->
+  
+   
+  <!--{pie}-->
+  </table> 
+  
+  <br>
+  <br>
+  
+  <div style="color: red">
+   {mensaje}
+  </div>
+  
+</center>
+</body>
+</html>
+  <!--{/pie}-->
+  
+   <!--
+  if Edgar = 'pendejo'
+  {
+     allahu_akbar();
+  }
+  else
+  {
+     .l.();
+  }
+  
+  -->
+ 
